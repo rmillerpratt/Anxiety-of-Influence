@@ -5,11 +5,11 @@ My objective with this project was to address the contentious issue of whether o
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+These instructions will help you get a copy of the project up and running on your local machine.
 
 ### Prerequisites
 
-You will need Python to run the Jupyter Notebook used for this project.
+You will need Python to run the Jupyter Notebook used for this project. If you do not want to install Jupyter Notebook on your local system you have the option viewing the code in the Jupyter Notebook [nbviewer](https://nbviewer.jupyter.org) or you can run my notebook from a brower window without downloading anything with [Binder](https://mybinder.org/v2/gh/rmillerpratt/Anxiety-of-Influence/master?filepath=Anxiety%20of%20Influence.ipynb)
 
 Documentation on how to install Python can be found [here](https://www.python.org/downloads/)
 
