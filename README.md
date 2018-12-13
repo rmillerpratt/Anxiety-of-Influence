@@ -30,5 +30,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Juan Jesús Payán Martín
-* David Roas
+* Payán Martín, J. J. (2015). La magia postergada: género e identidad nacional en la España del XIX. (Doctoral dissertation). University of California, Los Angeles. 
+* Roas, D. (2006). De la maravilla al horror: los inicios de lo fantástico en la cultura española (1750-1860). Vilagarcía de Arousa, Spain: Mirabel.
