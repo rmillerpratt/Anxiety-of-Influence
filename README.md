@@ -20,6 +20,10 @@ Jupyter recommends using Anaconda to install the Jupyter Notebook, but you can a
 * [Jupyter Notebooks](https://jupyter.org)
 * [Python](https://www.python.org)
 
+## Files Needed
+
+The original pdf file, original_translation_index_david_roas.pdf, that I used to build the data set, as well as my cleaned and geocoded csv, 2018_13_12_AoI_1_textonly.csv, are both included in this repository.
+
 ## Authors
 
 * **Robin Miller** - *Initial work* - [rmillerpratt](https://github.com/rmillerpratt)
