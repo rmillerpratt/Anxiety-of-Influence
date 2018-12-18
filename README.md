@@ -27,6 +27,7 @@ The original pdf file, original_translation_index_david_roas.pdf, that I used to
 ## CARTO Links
 
 To view additional visualizations of my work on this project, please click on the following links
+
 [Anxiety of Influence -1](https://savi.carto.com/u/robinmiller/builder/a9417abd-d71c-45a3-8881-6df152aab85c/embed)
 [Anxiety of Influcent -2](https://savi.carto.com/u/robinmiller/builder/7510bc73-e320-4663-8542-551722f7e036/embed)
 
