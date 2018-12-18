@@ -1,7 +1,7 @@
 # Anxiety-of-Influence
-Mapping and Visualization Project for Translations of Fantastic Literature into Spanish during the 19th Century
+Mapping and Visualization Project for Translations of Fantastic Literature into Spanish during the 19th-Century
 
-My objective with this project was to address the contentious issue of whether or not Spanish authors in the 19th century, had access to translations of non-Spanish language Fantastic texts. Specifically, I built a data set and used it to analyze frequency, location, and quantity of publications. The analysis was done through visualizations including maps and graphs. I created the data set that was used for this project by using raw data from the research of David Roas and Juan Jesús Payán Martín on Spanish language translations of Fantastic literature in the 19th century.
+My objective with this project was to address the contentious issue of whether or not Spanish authors in the 19th century, had access to translations of non-Spanish language Fantastic texts. Specifically, I built a data set and used it to analyze frequency, location, and quantity of publications. The analysis was done through visualizations including maps and graphs. I created the data set that was used for this project by using raw data from the research of David Roas and Juan Jesús Payán Martín on Spanish language translations of Fantastic literature in the 19th-Century.
 
 ## Getting Started
 
