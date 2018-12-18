@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css" />
+<script src="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+
+<style>
+#my-map {
+				width:1400px;
+				height:700px;
+}
+</style>
+</head>
+
+<body>
+				<div id="my-map"></div>
+<script>
+window.onload = function () {
+		var basemap = L.tileLayer('http://tile.stamen.com/toner/{z}/{x}/{y}.png', {
+							attribution: '&copy; <a href="http://maps.stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+
+				});
+
+  	$.getJSON("AoI_map.geojson", function(data) {
+
+  	var geojson = L.geoJson(data, {
+    	onEachFeature: function (feature, layer) {
+		  	layer.bindPopup(feature.properties.year_pub + '<p><b>City: ' + feature.properties.pub_location + '<p><b>Author: ' + feature.properties.last_name + '<p><b>Title: ' + feature.properties.title);
+      }
+  	});
+
+  	var map = L.map('my-map')
+//  	.fitBounds(geojson.getBounds());
+  .setView([40.4168, -3.70380], 6);
+
+  	basemap.addTo(map);
+  	geojson.addTo(map);
+	});
+
+};
+</script>
+</body>
+</html>
